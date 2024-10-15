@@ -42,7 +42,7 @@ Based on the logic given on the landing page we can see what condition we need m
 
 4. Ultra Crawl
 
-   In BurpSuite turn on intercept, go to provided url and send the request to repeater. Change the Host to ‘ company.tld ’ and add line ‘ url=file:///home/ctf/app.py ’. Send the request. In the response you will see the flag.
+   In BurpSuite turn on intercept, go to provided url and send the request to repeater. Change the Host to ‘ company.tld ’ and add line ‘ url=file:///home/ctf/app.py ’. Send the request. In the response you will see the flag. or tru ... :////home ...
 Flag:
 ctf{d8b7e522b0ab04101e78ab1c6ff68c4cb2f30ce9d4427d4cd77bc19238367933}
 
