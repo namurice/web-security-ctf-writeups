@@ -63,3 +63,26 @@ Steps and Logic:
 Upon inspecting the logic given on the landing page, we know that we need to set ‘Vector’ parameter AND the ‘replace’ parameter for the initial Admin-swapping to work -> ‘?vector=/Admin/&replace=User’ – adding this to the url, for example, will replace ’Admin’ on the page with ‘User’. Following the same logic, we can check what is in the current directory by running the following command : /?vector=/Admin/e&replace=system(‘ls’)
 Through this, we learn the name ‘here_we_dont_have_flag index.php’ 
 in which we later locate flag.txt.
+
+      6. under-construction
+http://34.89.138.139:30167/
+I used login and it shows us the credentials and account info
+Since I am just a user for more information im going to change my role to role admin from storage
+After this admin board appears in navbar
+But it still wont let us fully access it
+Now im going to take accesstoken
+Go to jwt.io and insert it in the main input, change id to 1 since it takes more priority and in the secret
+code we put letmein
+Now we take the generated token and insert it instead of the old one. Now in the admin board we see
+this:
+Our flag is:
+CTF{b566bdee4836bbb0bdfb9aff931d7f061b67db0e9cf3859f246261d0acc35
+438}
+   7. downloader v1
+
+1. Firstly we test the site and check the results: and as the result says it uses
+wget parameter so we can use –post-file
+We see in inspect that we have flag.php but unfortunatley we cant open it:
+The thing we can do it to open requestbin because it actually cab download
+files so what if we try to give it flag.php parameter?
+And on requestbin, after we use post request we can see flag:
