@@ -1,3 +1,17 @@
+# Web Security CTF Write-ups
+
+Solutions to five web exploitation challenges from a cyber security course CTF. Each write-up explains the vulnerability, how I found it, and the exploit.
+
+| # | Challenge | Vulnerability | Tools |
+|---|---|---|---|
+| 1 | Ping Station | OS command injection | Browser |
+| 2 | File Crawler | Path traversal with filter bypass (`//`) | Browser, URL manipulation |
+| 3 | Alien Inclusion | Local file inclusion via POST parameter | curl, Linux (VMware) |
+| 4 | Ultra Crawl | SSRF / `file://` access with Host header manipulation | Burp Suite (Repeater) |
+| 5 | Substitute | PHP code injection (`preg_replace` /e modifier) | Browser |
+
+---
+
 # pentest
 
 1. Ping Station:
